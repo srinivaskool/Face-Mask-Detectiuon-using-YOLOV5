@@ -18,6 +18,9 @@ import torch
 from IPython.display import Image, clear_output
 from utils.google_utils import gdrive_download
 
+dummy = 5
+printf(dummy)
+
 """# **Step 2: Download the custom data-set that you are interested in (using the Roboflow api)**  [Link to datasets](https://public.roboflow.com/)"""
 
 # Commented out IPython magic to ensure Python compatibility.
