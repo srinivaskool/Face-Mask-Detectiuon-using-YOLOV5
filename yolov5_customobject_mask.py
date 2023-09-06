@@ -18,9 +18,6 @@ import torch
 from IPython.display import Image, clear_output
 from utils.google_utils import gdrive_download
 
-dummy = 5
-printf(dummy)
-
 """# **Step 2: Download the custom data-set that you are interested in (using the Roboflow api)**  [Link to datasets](https://public.roboflow.com/)"""
 
 # Commented out IPython magic to ensure Python compatibility.
@@ -43,6 +40,9 @@ with open("data.yaml", 'r') as stream:
 
 #customize iPython writefile so we can write variables
 from IPython.core.magic import register_line_cell_magic
+
+dummy = 5
+printf(dummy)
 
 @register_line_cell_magic
 def writetemplate(line, cell):
